@@ -1,0 +1,12 @@
+body{
+    font-size: 1.2rem;
+}    
+
+.text-query{
+    border-radius: 5%;
+}
+
+.queries{
+    padding-left: 15px; 
+    margin: 3px auto;
+}
