@@ -96,4 +96,5 @@ h3{
 
 .footer-class{
     background-color: var(--clr-gray);
+    border-radius: 5%;
 }
