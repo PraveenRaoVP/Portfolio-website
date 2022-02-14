@@ -85,6 +85,10 @@ h3{
 /*Text box CSS*/
 .text-query{
     border-radius: 5%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .queries{
@@ -95,9 +99,14 @@ h3{
 .header-class,
 .footer-class{
     background-color: var(--clr-gray);
-    border-radius: 5%;
-    /*margin: 5px;
+    /*border-radius: 15%;
+    padding: 20px;
+    margin: 5px;
     padding: 5px;*/
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 
@@ -110,10 +119,19 @@ ul {
     display: table;
     width: 100%;
 }
+
+.nav-bar li{
+    display: inline-block;
+    margin: 0;
+    margin-right: 35px
+}
 .nav-list{
     float: right;
     display: table-cell;
     position: relative;
+}
+.nav-item:hover{
+    background-color: rgba(128,128,128,0.6);
 }
 
 .slider {
@@ -146,4 +164,10 @@ header a{
     font-weight: var(--fw-bold);
 }
 
-a:hover { background-color: rgba(128,128,128,0.6); }
+.each-section{
+    background-color: rgba(128,128,128,0.2);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
