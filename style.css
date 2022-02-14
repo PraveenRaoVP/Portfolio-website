@@ -16,6 +16,7 @@
     --clr-light: #fff;
     --clr-dark: #303030;
     --clr-accent: #16e0bd;
+    --clr-gray: rgba(128,128,128,0.4);
     
     --fs-h1: 3rem;
     --fs-h2: 1.9rem;
@@ -92,3 +93,7 @@ h3{
     margin: 3px auto;
 }
 
+
+.footer-class{
+    background-color: var(--clr-gray);
+}
