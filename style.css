@@ -36,12 +36,17 @@
 
 
 body{
-    background: var(--clr-light);
+    /*background: var(--clr-light);*/
     color: var(--clr-dark);
     margin: 15px;
     font-family: var(--ff-primary);
     font-size: var(--fs-body);
     line-height: 1.6;
+    background: linear-gradient(
+        35deg,
+        #ccffff,
+        #ffcccc
+      );
 }    
 
 img{
@@ -76,10 +81,18 @@ h3{
     margin: 0;
 }
 
+.section-subtitle--intro{
+    text-align: center;
+}
+
 .section-subtitle--intro,
 .section-sub-about{
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
+}
+
+.my-picture{
+    text-align: center;
 }
 
 /*Text box CSS*/
@@ -89,6 +102,11 @@ h3{
     border-bottom-left-radius: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    background: linear-gradient(
+        35deg,
+        #ccffff,
+        #ffcccc
+      );
 }
 
 .queries{
@@ -126,7 +144,8 @@ ul {
     margin-right: 35px
 }
 .nav-list{
-    float: right;
+    /*float: right;*/
+    text-align: center;
     display: table-cell;
     position: relative;
 }
@@ -169,6 +188,11 @@ footer a{
     font-size: 20px;
     font-weight: var(--fw-reg);
 }
+
+.section-title--intro{
+    text-align: center
+}
+
 .each-section{
     background-color: rgba(128,128,128,0.1);
     border-top-left-radius: 15px;
@@ -194,7 +218,9 @@ footer a{
 .center-query{
     text-align: center;
     align-items: center;
-    background-color: white;   
 }
 
+.contact-me{
+    margin-left: 15px;
+}
 

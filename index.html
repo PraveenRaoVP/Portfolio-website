@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+    rel="stylesheet"
+  />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +27,12 @@
 <body class="slider">
     <div class="slider">
     <header class="header-class">
-        <div class="logo">
+        <!--<div class="logo">
             <img src="img/" alt="">
         </div>
         <button class="max-toggle" aria-label="toggle navigation">
             <span class="hamburger-lines"></span>
-        </button>
+        </button>-->
         <nav class="nav-bar">
             <ul class="nav-list">
                 <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
@@ -38,7 +52,7 @@
         </h2>
         <p class="section-subtitle section-subtitle--intro">Aspiring Front-End Developer</p>
         <br>
-        <img src="" alt="Picture of Praveen Rao">
+        <img class="my-picture" src="" alt="Picture of Praveen Rao">
         <br>
     </section>
     <br>
@@ -118,19 +132,20 @@
     <section class="queries" id="queries">
         
         <h3>For queries: </h3>
-        <textarea name="emailarea" id="email-entry" class="text-query" cols="50" rows="1">Enter your email id</textarea>
+        <textarea name="emailarea" id="email-entry" class="text-query" cols="50" rows="1" placeholder="Enter your email id"></textarea>
         <br>
-        <textarea name="queryarea" id="query-entry" class="text-query" cols="50" rows="10">Enter your queries here.</textarea>
+        <textarea name="queryarea" id="query-entry" class="text-query" cols="50" rows="10" placeholder="Enter your queries here."></textarea><br>
+        <button class="submit-button">Submit</button>
     </section></div>
     <br>
     <footer id="contact" class="footer-class">
         <h3 class="contact-me">Contact me: </h3>
         <ul class="social-list">
             <li class="social-item">
-        Mail: <a href="mailto:praveenraovp01@gmail.com" class="footer-link">praveenraovp01@gmail</a></li>
-            <li class="social-item"><img src="./img/instalogo.jpg" alt="instagram logo"><a href="https://instagram.com/mjackpraveen01/" class="social-link"> &nbsp; Instagram</a></li><br>
-            <li class="social-item"><a href="https://github.com/PraveenRaoVP" class="social-link">GitHub</a></li><br>
-            <li class="social-item"><a href="https://twitter.com/PraveenRao" class="social-link">Twitter</a></li><br>
+                <a href="mailto:praveenraovp01@gmail.com" class="footer-link"><i class="far fa-envelope">&nbsp; praveenraovp01@gmail</i></a>
+        <!--<a href="mailto:praveenraovp01@gmail.com" class="footer-link">praveenraovp01@gmail</a></li>-->
+            <li class="social-item"><a href="https://instagram.com/mjackpraveen01/" class="social-link"><i class="fab fa-instagram"> &nbsp; @mjackpraveen01</i></a></li>
+            <li class="social-item"><a href="https://github.com/PraveenRaoVP" class="social-link"><i class="fab fa-github">&nbsp; PraveenRaoVP</li></a></i><br>
         </ul>
     </footer>
 </body>
