@@ -18,18 +18,18 @@
     --clr-accent: #16e0bd;
     --clr-gray: rgba(128,128,128,0.4);
     
-    --fs-h1: 3.5rem;
-    --fs-h2: 1.9rem;
-    --fs-h3: 1.35rem;
+    --fs-h1: 5.5rem;
+    --fs-h2: 3.9rem;
+    --fs-h3: 2.35rem;
     --fs-body: 1rem;   
 }
 
 @media (min-width: 800px){
     :root{
-        --fs-h1: 4.5rem;
-        --fs-h2: 3rem;
-        --fs-h1: 1.5rem;
-        --fs-body: 1.125rem;
+        --fs-h1: 5.5rem;
+        --fs-h2: 4rem;
+        --fs-h1: 3.5rem;
+        --fs-body: 2.125rem;
     }
 }
 
@@ -229,7 +229,7 @@ footer a{
     border-bottom-left-radius: 19px;
     border-top-right-radius: 19px;
     border-bottom-right-radius: 19px;
-    padding: 15px 15px 15px 15px;
+    padding: 10px 10px 10px 10px;
 }
 
 .see-all-btn:hover{
